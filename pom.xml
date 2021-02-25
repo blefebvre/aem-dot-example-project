@@ -11,7 +11,7 @@
       <plugin>
         <groupId>com.adobe.aem.dot</groupId>
         <artifactId>dispatcher-optimizer-maven-plugin</artifactId>
-        <version>0.2.6</version>
+        <version>0.2.8</version>
         <configuration>
           <optimizerRulesPath></optimizerRulesPath>
           <reportVerbosity>MINIMIZED</reportVerbosity>
