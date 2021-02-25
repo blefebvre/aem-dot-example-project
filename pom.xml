@@ -16,6 +16,16 @@
           <optimizerRulesPath></optimizerRulesPath>
           <reportVerbosity>MINIMIZED</reportVerbosity>
         </configuration>
+
+        <!-- Execute the analyze goal during the verify phase -->
+        <executions>
+          <execution>
+            <phase>verify</phase>
+            <goals>
+              <goal>analyze</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
