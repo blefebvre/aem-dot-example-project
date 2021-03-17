@@ -13,7 +13,7 @@
         <artifactId>dispatcher-optimizer-maven-plugin</artifactId>
         <version>0.2.12</version>
         <configuration>
-          <optimizerRulesPath></optimizerRulesPath>
+          <optimizerRulesPath>dot-rules</optimizerRulesPath>
           <reportVerbosity>MINIMIZED</reportVerbosity>
         </configuration>
 

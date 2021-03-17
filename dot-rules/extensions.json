@@ -1,0 +1,9 @@
+{
+    "mergeMode": "EXTEND",
+    "rules": [
+      {
+        "id": "DOTRules:Disp-1---ignoreUrlParams-allow-list",
+        "enabled": false
+      }
+    ]
+  }
